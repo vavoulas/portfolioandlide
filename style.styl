@@ -1,0 +1,156 @@
+$black = #3d3d3d
+$white = #e5e5e5 
+$primary = #5e9ba6
+$sec = #c67377
+$shadow = #bbb
+
+html
+    box-sizing: border-box
+    font-family: Arial, Helvetica, sans-serif
+
+    body
+        background: $white
+        margin: 20px 10px
+        line-height: 1.4
+        color: $black
+
+
+        .wrapper 
+            display: grid
+            grid-gap: 15px
+            nav 
+                ul 
+                    display: grid
+                    grid-gap: 15px
+                    padding: 0
+                    list-style: none
+                    grid-template-columns: repeat(4, 1fr);
+                    a 
+                        display: block
+                        background: $primary
+                        color: $white
+                        padding: 0.8rem
+
+                        text-align: center
+                        text-decoration: none 
+                        text-transform: uppercase
+                        border-radius: 4%
+                        font-size: 1.1rem
+                        box-shadow:5px 5px 10px $shadow
+                    :hover
+                        background: $white
+                        color: $primary
+            .top-container
+                display: grid
+                grid-gap: 15px
+                grid-template-columns: 4fr 2fr
+                align-items: center
+                
+                .info
+                    
+                    min-height: 400px
+                    background: url(/images/programming.jpeg)
+                    
+
+
+                    
+                    background-size: cover
+                    background-position: center
+                    padding: 2rem
+                    text-align: center
+                    color: $white
+                    display: flex
+                    flex-direction: column
+                    align-items: center 
+                    justify-content: center
+
+                    .btn
+                        padding: 5px 8px
+
+                        background: $primary
+                        color: $white
+                        text-decoration: none 
+                    
+
+
+
+                .right-info
+                    text-align: center
+                    background: #d4d4d4
+                    box-shadow: 2px 4px 2px $shadow
+                    min-height: 400px
+            .boxes
+                display: grid
+                grid-gap: 15px
+                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))
+                .box
+                    background: #d2f1ff
+                    box-shadow: 2px 4px 2px $shadow
+                    text-align: center
+                    padding-top: 10px
+                    padding-left: 7px
+
+                    p 
+                     text-align: left 
+                     word-wrap: break-word
+            .info
+                
+                background: #d2f1ff
+                box-shadow: 2px 4px 2px $shadow
+                padding: 3rem
+                display: grid
+                grid-gap: 20px
+                grid-template-columns: repeat(2, 1fr)
+                img 
+                   max-width : 65%
+            .slider
+                margin: 0 auto
+                
+                
+
+                img 
+                    width: 400px
+                    height: 200px
+                    margin-bottom: 10px
+            footer
+                height: 50px
+                background: $primary
+                color: $white
+                p
+                    text-align: center
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+
+
+
+
+                
+            
+                    
+
+
+
+
+                    
+
+
+                
+
+
+
+                    
+                
+
+
+
+                
+
+
+            
+
